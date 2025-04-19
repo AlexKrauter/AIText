@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "AIText",
+			"path": "."
+		},
+		{
+			"name": "vosk-model-small-en-us-0.15",
+			"path": "../../Downloads/vosk-model-small-en-us-0.15/vosk-model-small-en-us-0.15"
+		}
+	],
+	"settings": {}
+}
