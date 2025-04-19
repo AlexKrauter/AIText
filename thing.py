@@ -1,7 +1,7 @@
 import queue, json, pyttsx3, datetime
 from vosk import Model, KaldiRecognizer
 import sounddevice as sd
-model = Model("model")
+model = Model("vosk-model-small-en-us-0.15")
 recognizer = KaldiRecognizer(model, 16000)
 audio = queue.Queue()
 engine = pyttsx3.init()
